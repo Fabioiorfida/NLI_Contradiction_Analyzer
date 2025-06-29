@@ -25,12 +25,12 @@ A comprehensive toolkit for automatically assessing the logical consistency of p
 
 ## Project Structure
 
-* analyzer.py – core class managing models and database
+* OptimizedPoliticalStatementAnalyzer– core class managing models and database
 * main.py – entry point for quick analysis
-* BERT\_NLI\_Model/ – fine‑tuned BERT weights
-* BERT\_NLI\_Tokenizer/ – corresponding tokenizer files
-* T5\_Explanation\_Final/ – fine‑tuned T5 weights
-* T5\_Explanation\_Tokenizer\_Final/ – corresponding tokenizer files
+* BERT\_NLI\_Model – fine‑tuned BERT weights
+* BERT\_NLI\_Tokenizer – corresponding tokenizer files
+* T5\_Explanation\_Final – fine‑tuned T5 weights
+* T5\_Explanation\_Tokenizer\_Final – corresponding tokenizer files
 * political\_statements\_sample.csv – sample dataset
 * README.md – this document
 
@@ -39,7 +39,7 @@ A comprehensive toolkit for automatically assessing the logical consistency of p
 1. Configure model paths and database settings in main.py.
 2. The BERT module classifies each statement pair.
 3. The T5 module generates an explanation for the predicted label.
-4. Results are stored in MongoDB for further inspection or downstream analysis.
+4. Results and metrics are showed.
 
 ## Typical Use Cases
 
