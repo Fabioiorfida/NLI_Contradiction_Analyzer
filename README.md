@@ -26,15 +26,11 @@ A comprehensive toolkit for automatically assessing the logical consistency of p
 ## Project Structure
 
 * OptimizedPoliticalStatementAnalyzer– core class managing models and database
-* main.py – entry point for quick analysis
-* BERT\_NLI\_Model – fine‑tuned BERT weights
-* BERT\_NLI\_Tokenizer – corresponding tokenizer files
-* T5\_Explanation\_Final – fine‑tuned T5 weights
-* T5\_Explanation\_Tokenizer\_Final – corresponding tokenizer files
+* ProjectNLP.ipynb – entry point for quick analysis
 * political\_statements\_sample.csv – sample dataset
 * README.md – this document
 
-#Setup
+## Setup
 
 1. Configure model paths and database settings into project.ipynb by configuring the section GLOBAL VARIABLES
 2. Only for the first time use the apposit cell to upload data from the CSV file into the db (the .csv file must be accessible from the application)
