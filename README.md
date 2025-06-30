@@ -58,7 +58,7 @@ Contributions are welcome! Feel free to open issues for questions or improvement
 
 ## Author
 
-Fabio Iorfida – MSc in Music Informatics & Computer Science
+Fabio Iorfida – MSc in Computer Science
 
 For enquiries, please use the Issues section of the repository.
 
